@@ -7,7 +7,7 @@ A clean architecture news application using free api with MVVM and paging3.
 --- | ---
 **Language** | Kotlin
 **Architecture** | MVVM
-**Minimum SDK Version** | 24
+**Minimum SDK Version** | 21
 **Target SDK Version** | 33
 **Api** | [newsapi](https://newsapi.org/)
 |||
