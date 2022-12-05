@@ -1,5 +1,5 @@
 # News Application
-A clean architecture news application using free api with MVVM and paging3.
+A clean architecture news application with MVVM and paging3.
 
 # Project Information
 
@@ -7,7 +7,7 @@ A clean architecture news application using free api with MVVM and paging3.
 --- | ---
 **Language** | Kotlin
 **Architecture** | MVVM
-**Minimum SDK Version** | 24
+**Minimum SDK Version** | 21
 **Target SDK Version** | 33
 **Api** | [newsapi](https://newsapi.org/)
 |||
@@ -26,4 +26,5 @@ A clean architecture news application using free api with MVVM and paging3.
 * [Coil](https://github.com/coil-kt/coil)
 
 ## Running App
-you need to generate an api_key from [newsapi](https://newsapi.org/) and add it to project to get data from api.
+you need to generate an api_key from [newsapi](https://newsapi.org/) and add it to local.propertise file in project with below fromat to get data from api.
+api_key = YOUR_API_KEY
