@@ -9,5 +9,14 @@
         android:id="@+id/newsFragment"
         android:name="com.aydinnrz.newsapp.ui.view.NewsFragment"
         android:label="fragment_news"
-        tools:layout="@layout/fragment_news" />
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_newsFragment_to_nav_webview"
+            app:destination="@id/nav_webview">
+            <argument
+                android:name="url"
+                app:argType="string" />
+        </action>
+    </fragment>
+    <include app:graph="@navigation/nav_webview" />
 </navigation>

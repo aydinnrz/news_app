@@ -11,6 +11,7 @@ object ImageUtils {
         val request = ImageRequest.Builder(this.context)
             .data(url)
             .target(this)
+            .crossfade(250)
             .allowHardware(false)
             .build()
         imageLoader.enqueue(request)

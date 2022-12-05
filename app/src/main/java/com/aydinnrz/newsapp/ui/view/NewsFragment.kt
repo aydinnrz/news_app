@@ -85,6 +85,10 @@ class NewsFragment : BaseFragment<FragmentNewsBinding>(), NewsPagedAdapter.OnIte
 
     // on recycler view item click open webView with url passed back here
     override fun onItemClick(url: String?) {
+        url?.let {
+            val action = NewsFragmentDirections.actionNewsFragmentToNavWebview(it)
+            findNavController().navigate(action)
+        }
     }
 
 }
