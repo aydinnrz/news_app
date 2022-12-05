@@ -26,4 +26,4 @@ A clean architecture news application using free api with MVVM and paging3.
 * [Coil](https://github.com/coil-kt/coil)
 
 ## Running App
-you need to generate a api_key from [newsapi](https://newsapi.org/) and add it to project to get data from api.
+you need to generate an api_key from [newsapi](https://newsapi.org/) and add it to project to get data from api.
