@@ -14,7 +14,7 @@ A clean architecture news application with MVVM and paging3.
 
 ## Technologies and libraries used in project
 * [MVVM](https://developer.android.com/topic/architecture)
-* * [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
+* [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
 * [Kotlin Flows](https://developer.android.com/kotlin/flow)
 * [Navigation component](https://developer.android.com/guide/navigation)
 * [Dagger-Hilt](https://developer.android.com/training/dependency-injection)
