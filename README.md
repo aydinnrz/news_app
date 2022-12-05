@@ -1,5 +1,5 @@
 # News Application
-A clean architecture news application using free api with MVVM and paging3.
+A clean architecture news application with MVVM and paging3.
 
 # Project Information
 
