@@ -1,5 +1,5 @@
 # News Application
-A clean architecture Android news application with Kotlin, MVVM and paging3.
+An Android news application with Kotlin, MVVM and paging3.
 
 # Project Information
 
